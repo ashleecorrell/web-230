@@ -1,5 +1,5 @@
 # web-230
 Intoduction to JavaScript
-# Contributors
+# contributors
 Professor Krasso-Bellevue University
 Ashlee Correll-Bellevue University
