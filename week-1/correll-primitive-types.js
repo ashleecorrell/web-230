@@ -22,7 +22,7 @@ var state = "Nebraska";
 var zipCode = "68123";
 
 // output 
-console.log('\n'); 
+console.log('firstName'); 
 
 
 // end program
