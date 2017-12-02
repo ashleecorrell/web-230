@@ -32,13 +32,13 @@ state = "Nebraska";
 zipCode = "68123";
 
 // output 
-console.log('firstName'); 
-console.log('lastName');
-console.log('age');
-console.log('street');
-console.log('city');
-console.log('state');
-console.log('zipCode');
+console.log(firstName); 
+console.log(lastName);
+console.log(age);
+console.log(street);
+console.log(city);
+console.log(state);
+console.log(zipCode);
 
 
 // end program
