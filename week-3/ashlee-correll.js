@@ -56,6 +56,8 @@ console.log(match(2, 2));
 
 // Conditional "if...else" statements. Include checks for all six (6) test variables 
 
+
+//output should be "airplane and truck do not match!" but I am getting "Airplane and Truck do match!"
 match (air,truck)
     if (true) {
         logMatch (air,truck);
