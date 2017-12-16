@@ -1,4 +1,9 @@
-var header = require('../header.js'); 
+var header = require('../header.js');
+
+console.log(header.display("Ashlee", "Correll", "Exercise 3.2")); 
+console.log("\n");
+
+
 
 // start program
 
