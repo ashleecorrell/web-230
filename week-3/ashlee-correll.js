@@ -58,13 +58,41 @@ console.log(match(2, 2));
 
 
 //output should be "airplane and truck do not match!" but I am getting "Airplane and Truck do match!"
-match (air,truck)
-    if (true) {
-        logMatch (air,truck);
-    } 
-    else {
-        logMismatch (air,truck);
-    }
+if (match(air,truck)){
+    logMatch(air,truck);
+} else {
+    logMismatch(air,truck);
+}
+
+if (match(truck,bike)){
+    logMatch(truck,bike);
+} else {
+    logMismatch(truck,bike);
+}
+
+if (match(bike,bicycle)){
+    logMatch(bike,bicycle);
+} else {
+    logMismatch(bike,bicycle);
+}
+
+if (match(bicycle,car)){
+    logMatch(bicycle,car);
+} else {
+    logMismatch(bicycle,car);
+}
+
+if (match(car,train)){
+    logMatch(car,train);
+} else {
+    logMismatch(car,train);
+}
+
+if (match(train,air)){
+    logMatch(train,air);
+} else {
+    logMismatch(train,air);
+}
 
   
 
