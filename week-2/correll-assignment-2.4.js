@@ -22,32 +22,34 @@ var header = require('../header.js');
 */ 
 
 // function(s) go here...
-function fullName(first,last) {
-    return first+" "+last;
+function fullName() {
+    return "Ashlee Correll";
     
 }
 
-function dateWriter(year, month, day) {
-        return year+"-"+month+"-"+day;
+function dateWriter() {
+    return new Date().toLocaleDateString();
 
 }
-
-function formatNumber() {
+var n = 65.586;
+function formatNumber(n) {
+    return (n.toFixed(1));
 
 }
-
+var age = "26.6"
 function convertToInt() {
+    return (parseInt(age));
 
 }
-
+var money = "200.98"
 function convertToFloat() {
+    return (parseFloat(money));
 
 }
 
-// output 
-"Hello my name is"+console.log(fullName(Ashlee,Correll))+"!"; 
-
-
-
+// output
+console.log ("Hello my name is "+fullName()+"!")
+console.log ("Todays date is "+dateWriter()+ " and the temperature outside is "+ formatNumber(n)+".")
+console.log ("I am "+convertToInt()+" years old and my savings account goal is "+convertToFloat()+".")
 
 // end program 
