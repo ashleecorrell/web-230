@@ -2,7 +2,7 @@ var header = require('../header.js');
 console.log(header.display("Ashlee", "Correll", "Exercise 2.4")); 
 console.log("\n");
 
-var header = require('../header.js'); 
+
 
 // start program
 

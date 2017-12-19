@@ -1,6 +1,6 @@
 var header = require('../header.js');
 
-console.log(header.display("Ashlee", "Correll", "Exercise 3.2")); 
+console.log(header.display("Ashlee", "Correll", "Exercise 3.3")); 
 console.log("\n");
 
 

@@ -1,11 +1,9 @@
+
 var header = require('../header.js');
 
-
-
-console.log(header.display("Ashlee", "Correll", "Exercise 2.1")); 
+console.log(header.display("Ashlee", "Correll", "Exercise 2.3")); 
 console.log("\n");
-
-var header = require('../header.js'); 
+ 
 
 // start program
 
@@ -32,7 +30,7 @@ function myName() {
 }
 
 // output 
-console.log(myName()); 
+console.log("Hello my name is "+myName()+"!"); 
 
 
 
