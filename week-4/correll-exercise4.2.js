@@ -8,6 +8,7 @@ Date: 19 December 2017
 Modified by: Ashlee Correll
 
 Description: JavaScript coding assignment to learn about arrays
+*/
 
 var header = require('../header.js');
 console.log(header.display("Ashlee", "Correll", "Exercise 4.2")); 
