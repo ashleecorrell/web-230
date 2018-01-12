@@ -11,7 +11,7 @@ Description: JavaScript coding assignment to learn about array methods
 */
 
 var header = require('../header.js');
-console.log(header.display("Ashlee", "Correll", "Exercise 5.2")); 
+console.log(header.display("Ashlee", "Correll", "Exercise 5.3")); 
 console.log("\n");
 
 /*

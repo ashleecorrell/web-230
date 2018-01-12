@@ -1,4 +1,18 @@
+/*
+Title: Exercise 5.4
+
+Author: Richard Krasso
+
+Date: 12 January 2018
+
+Modified by: Ashlee Correll
+
+Description: JavaScript coding assignment to learn about array methods
+*/
+
 var header = require('../header.js');
+console.log(header.display("Ashlee", "Correll", "Exercise 5.4")); 
+console.log("\n");
 
 /*
 Expected output:
