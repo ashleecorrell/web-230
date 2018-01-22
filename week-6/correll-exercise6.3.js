@@ -27,6 +27,8 @@ Description: JavaScript coding assignment to learn about object literals
 
 // start program
 
+//create an object literal with three fields
+
 var ticket = {
     id: "H123G2",
     name: "Bus One",
@@ -34,7 +36,7 @@ var ticket = {
 
 
 };
-
+//display each field in a string
 console.log("{id: " + ticket.id + ", name: " + ticket.name + ", requester: " + ticket.requester + "}")
 
 
